@@ -10,3 +10,8 @@ function foo() {
 }
 foo();
 console.log(z);
+
+function doSomething() {
+  return; // Unnecessary return statement
+  console.log("This will never run"); // Dead code
+}
