@@ -10,3 +10,24 @@ function foo() {
 }
 foo();
 console.log(z);
+
+// More bad JavaScript code
+
+function bar(a, b) {
+  return
+    a + b;
+}
+
+for (i = 0; i < 5; i++) 
+console.log(i)
+
+let arr = [1, 2, 3];
+arr[5] = 10;
+
+const obj = {};
+obj = { name: "test" };
+
+function baz() {
+  undeclaredVar++;
+}
+baz();
